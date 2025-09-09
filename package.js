@@ -1,0 +1,19 @@
+{
+  "name": "simple-apprunner-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for AWS App Runner",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
